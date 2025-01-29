@@ -1,0 +1,56 @@
+﻿@model WebApp2.Models.UpdateEmployeeViewModel
+
+@{
+}
+
+<h1>Edit Employee</h1>
+<form method="post" action="/Employees/Update" class="mt-5">
+    <div class="mb-3">
+        <label for="" class="form-label">Id</label>
+        <input type="text" class="form-control" asp-for="Id" readonly>
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Guid</label>
+        <input type="text" class="form-control" asp-for="Guid" readonly>
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Surname</label>
+        <input type="text" class="form-control" asp-for="Surname">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Name</label>
+        <input type="text" class="form-control" asp-for="Name">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Patronymic</label>
+        <input type="text" class="form-control" asp-for="Patronymic">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Phone</label>
+        <input type="number" class="form-control" asp-for="Phone">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Email Address</label>
+        <input type="email" class="form-control" asp-for="Email" />
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Date Of Birth</label>
+        <input type="date" class="form-control" asp-for="Birthdate" />
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Date Of Employment</label>
+        <input type="date" class="form-control" asp-for="EmploymentDate" />
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Post ID</label>
+        <input type="number" class="form-control" asp-for="PostId" />
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Department ID</label>
+        <input type="number" class="form-control" asp-for="DepartmentId" />
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-danger" asp-action="Delete" asp-controller="Employees">Delete</button>
+</form>

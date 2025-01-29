@@ -1,0 +1,29 @@
+﻿@model List<WebApp2.DAL.Models.Department>
+
+@{
+}
+
+<h1>Departments</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Guid</th>
+            <th>Code</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var department in Model)
+        {
+            <tr>
+                <td>@department.Id</td>
+                <td>@department.Guid</td>
+                <td>@department.Code</td>
+                <td>@department.Name</td>
+                <td><a href="Departments/View/@department.Id">View</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

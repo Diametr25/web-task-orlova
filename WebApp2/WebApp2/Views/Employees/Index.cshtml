@@ -1,0 +1,43 @@
+﻿@model List<WebApp2.DAL.Models.Employee>
+
+@{
+}
+
+<h1>Employees</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Guid</th>
+            <th>Surname</th>
+            <th>Name</th>
+            <th>Patronymic</th>
+            <th>Phone</th>
+            <th>Email</th>
+            <th>Date of birth</th>
+            <th>Date of employment</th>
+            <th>Department</th>
+            <th>Post</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var employee in Model)
+        {
+            <tr>
+                <td>@employee.Id</td>
+                <td>@employee.Guid</td>
+                <td>@employee.Surname</td>
+                <td>@employee.Name</td>
+                <td>@employee.Patronymic</td>
+                <td>@employee.Phone</td>
+                <td>@employee.Email</td>
+                <td>@employee.Birthdate.ToString("dd.MM.yyyy")</td>
+                <td>@employee.EmploymentDate.ToString("dd.MM.yyyy")</td>
+                <td>@employee.DepartmentId</td>
+                <td>@employee.PostId</td>
+                <td><a href="Employees/View/@employee.Id">View</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,27 @@
+﻿@model WebApp2.Models.UpdateDepartmentViewModel
+
+@{
+}
+
+<h1>Edit Department</h1>
+<form method="post" action="/Departments/Update" class="mt-5">
+    <div class="mb-3">
+        <label for="" class="form-label">Id</label>
+        <input type="text" class="form-control" asp-for="Id" readonly>
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Guid</label>
+        <input type="text" class="form-control" asp-for="Guid" readonly>
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Code</label>
+        <input type="number" class="form-control" asp-for="Code">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Name</label>
+        <input type="text" class="form-control" asp-for="Name">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-danger" asp-action="Delete" asp-controller="Departments">Delete</button>
+</form>

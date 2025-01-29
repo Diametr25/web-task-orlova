@@ -1,0 +1,46 @@
+﻿@model WebApp2.Models.AddEmployeeViewModel
+
+@{
+}
+
+<h1>Add Employee</h1>
+<form method="post" action="Add" class="mt-5">
+    <div class="mb-3">
+        <label for="" class="form-label">Surname</label>
+        <input type="text" class="form-control" asp-for="Surname">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Name</label>
+        <input type="text" class="form-control" asp-for="Name">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Patronymic</label>
+        <input type="text" class="form-control" asp-for="Patronymic">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Phone</label>
+        <input type="number" class="form-control" asp-for="Phone">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Email Address</label>
+        <input type="email" class="form-control" asp-for="Email" />
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Date Of Birth</label>
+        <input type="date" class="form-control" asp-for="Birthdate" />
+    </div>
+    <div class="mb-3">
+    <label for="" class="form-label">Date Of Employment</label>
+        <input type="date" class="form-control" asp-for="EmploymentDate"/>
+    </div>
+    <div class="mb-3">
+    <label for="" class="form-label">Post ID</label>
+        <input type="number" class="form-control" asp-for="postId" />
+    </div>
+    <div class="mb-3">
+    <label for="" class="form-label">Department ID</label>
+        <input type="number" class="form-control" asp-for="departmentId" />
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

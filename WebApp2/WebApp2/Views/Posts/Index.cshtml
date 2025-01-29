@@ -1,0 +1,29 @@
+﻿@model List<WebApp2.DAL.Models.Post>
+
+@{
+}
+
+<h1>Posts</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Guid</th>
+            <th>Code</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var post in Model)
+        {
+            <tr>
+                <td>@post.Id</td>
+                <td>@post.Guid</td>
+                <td>@post.Code</td>
+                <td>@post.Name</td>
+                <td><a href="Posts/View/@post.Id">View</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

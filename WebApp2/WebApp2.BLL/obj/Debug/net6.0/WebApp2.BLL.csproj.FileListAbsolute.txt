@@ -1,0 +1,15 @@
+C:\Users\Lenovo\Documents\orlova-web-task\WebApp2\WebApp2.BLL\obj\Debug\net6.0\WebApp2.BLL.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Documents\orlova-web-task\WebApp2\WebApp2.BLL\obj\Debug\net6.0\WebApp2.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Documents\orlova-web-task\WebApp2\WebApp2.BLL\obj\Debug\net6.0\WebApp2.BLL.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Documents\orlova-web-task\WebApp2\WebApp2.BLL\obj\Debug\net6.0\WebApp2.BLL.AssemblyInfo.cs
+C:\Users\Lenovo\Documents\orlova-web-task\WebApp2\WebApp2.BLL\obj\Debug\net6.0\WebApp2.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Documents\orlova-web-task\WebApp2\WebApp2.BLL\bin\Debug\net6.0\WebApp2.BLL.deps.json
+C:\Users\Lenovo\Documents\orlova-web-task\WebApp2\WebApp2.BLL\bin\Debug\net6.0\WebApp2.BLL.dll
+C:\Users\Lenovo\Documents\orlova-web-task\WebApp2\WebApp2.BLL\bin\Debug\net6.0\WebApp2.BLL.pdb
+C:\Users\Lenovo\Documents\orlova-web-task\WebApp2\WebApp2.BLL\bin\Debug\net6.0\WebApp2.DAL.dll
+C:\Users\Lenovo\Documents\orlova-web-task\WebApp2\WebApp2.BLL\bin\Debug\net6.0\WebApp2.DAL.pdb
+C:\Users\Lenovo\Documents\orlova-web-task\WebApp2\WebApp2.BLL\obj\Debug\net6.0\WebApp2.BLL.csproj.CopyComplete
+C:\Users\Lenovo\Documents\orlova-web-task\WebApp2\WebApp2.BLL\obj\Debug\net6.0\WebApp2.BLL.dll
+C:\Users\Lenovo\Documents\orlova-web-task\WebApp2\WebApp2.BLL\obj\Debug\net6.0\refint\WebApp2.BLL.dll
+C:\Users\Lenovo\Documents\orlova-web-task\WebApp2\WebApp2.BLL\obj\Debug\net6.0\WebApp2.BLL.pdb
+C:\Users\Lenovo\Documents\orlova-web-task\WebApp2\WebApp2.BLL\obj\Debug\net6.0\ref\WebApp2.BLL.dll
